@@ -7,22 +7,22 @@ a {
     text-decoration: none;
 }
 body {
-    background-color: #121728;
+    background-color: #261E7F;
     font-family: 'Roboto';
     padding-top: 50px;
 }
 .purple {
-    color: #612194;
+    color: #a29afc;
 }
 .fw-600 {
     font-weight: 600;
 }
 h1 {
     /* color: #612194; */
-    color: #fff;
+    color: #D4D0FF;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 .works {
     display: flex;
@@ -51,7 +51,7 @@ h1 {
     font-weight: 14px;
 }
 .work-card p.date {
-    color: #612194;
+    color: #D4D0FF;
 }
 .work-card p.card-head {
     font-weight: 400;
@@ -61,4 +61,35 @@ h1 {
 }
 .work-card p span {
     color: #fff;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 100px;
+}
+h5 > a {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #a29afc;
+    color: #D4D0FF;
+}
+.rules {
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.rules p {
+    margin-block: 15px;
+}
+
+h3 {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #a29afc;
+    text-align: center;
 }
